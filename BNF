@@ -1,0 +1,49 @@
+ΑΝΑΦΟΡΑ  
+
+BNF: 
+
+<S> ::= "{" <created_at> "," <id_str> "," <user> "}" 
+
+  
+
+<created_at> ::= <Day_name> <MMM> <DD> <XX:XX:XX:YYYY> 
+
+  
+
+<Day_name> ::= "Mon"|"Tue"|"Wed"|"Thu"|"Fri"|"Sat"|"Sun" 
+
+<MMM> ::= "Jan" | "Feb" | "Mar" | "Apr" | "May" | "Jun" | "Jul" | "Aug" | "Sep" | "Oct" | "Nov" | "Dec" 
+
+<DD> ::= [1-31] 
+
+<XX:XX:XX:YYYY> ::= <h> <min> <sec> <Y> 
+
+<h> ::= [0-23] 
+
+<min> ::= [0-59] 
+
+<sec> ::= [0-59] 
+
+  
+
+<id_str> ::= <digit><digit><digit><digit><digit><digit><digit><digit><digit><digit> 
+
+<digit> ::= 0|1|2|3|4|5|6|7|8|9 
+
+  
+
+<user> ::= "{" <id> "," <name> "," <screen_name> "," <location> "," <url> "," <description> "}"  
+
+  
+
+<id> ::= <digit><digit><digit><digit><digit><digit> 
+
+<name> ::= ([A-Za-z] | ' ')+ 
+
+<screen_name> ::= [A-Za-z]+ 
+
+<location> ::= [A-Za-z]+ 
+
+<url> ::= "http:" "\/" "\/" [a-z]+ "." [a-z]+ "." "com" "\/" 
+
+<description> ::= ([A-Za-z] | ' ')+ 
