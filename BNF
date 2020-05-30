@@ -1,4 +1,4 @@
-**BNF:**
+BNF:
 
 <S> ::= "{" <created_at> "," <id_str> "," <user> "}"   
 <created_at> ::= <Day_name> <MMM> <DD> <XX:XX:XX:YYYY> 
