@@ -23,11 +23,7 @@ of the Twitter API platform!\nhttps:\/\/t.co\/XweGngmxlP",
  
  "url": "https:\/\/dev.twitter.com\/",
  
- "description": "Your official source for Twitter Platform
- 
-news, updates & events. Need technical help? Visit
-
-https:\/\/twittercommunity.com\/ \u2328\ufe0f #TapIntoTwitter"
+ "description": "Your official source for Twitter Platform news, updates & events. Need technical help? Visit https:\/\/twittercommunity.com\/ \u2328\ufe0f #TapIntoTwitter"
 
  },
  
@@ -49,13 +45,9 @@ https:\/\/twittercommunity.com\/ \u2328\ufe0f #TapIntoTwitter"
  
  "unwound": {
  
- "url":
- 
-"https:\/\/cards.twitter.com\/cards\/18ce53wgo4h\/3xo1c",
+ "url":"https:\/\/cards.twitter.com\/cards\/18ce53wgo4h\/3xo1c",
 
- "title": "Building the Future of the Twitter API
- 
-Platform"
+ "title": "Building the Future of the Twitter APIPlatform"
 
  }
  
